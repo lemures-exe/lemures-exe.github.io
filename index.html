@@ -12,7 +12,6 @@
             box-sizing: border-box;
         }
         
-        /* Dark theme styling */
         body {
             font-family: 'Roboto', sans-serif;
             line-height: 1.6;
@@ -60,6 +59,14 @@
             margin-bottom: 10px;
         }
 
+        section h3 {
+            font-size: 1.6em;
+            color: #ffffff;
+            border-bottom: 2px solid #4a90e2; 
+            padding-bottom: 5px; 
+            margin-bottom: 10px;
+        }
+
         section p {
             font-size: 1em;
             color: #b0b0b0;
@@ -84,7 +91,7 @@
             color: #666;
         }
 
-        /* Badge image */
+
         .badge-img {
             width: 100%;
             max-width: 400px;
@@ -92,7 +99,6 @@
             display: block;
         }
 
-        /* Responsive adjustments */
         @media (max-width: 600px) {
             header h1 {
                 font-size: 2em;
@@ -154,8 +160,8 @@
         <section>
             <h3>Achievements</h3>
             <p>Below is a link to my TryHackMe profile along with my badge!</p>
-            <p><a href="https://tryhackme.com/r/p/lemures" target="__blank">TryHackMe Profile</p>
-            <img src="https://tryhackme-badges.s3.amazonaws.com/lemures.png" alt="Your Image Badge" />
+            <p><a href="https://tryhackme.com/r/p/lemures" target="_blank">TryHackMe Profile</a></p>
+            <img src="https://tryhackme-badges.s3.amazonaws.com/lemures.png" alt="Your Image Badge" class="badge-img" />
         </section>
         
         <section>
@@ -164,6 +170,8 @@
             <p><a href="mailto:olivertwright@protonmail.com">Email</a></p>
             <p><a href="https://www.linkedin.com/in/olivertwright/" target="_blank">LinkedIn</a></p>
             <p><a href="https://x.com/__lemures__" target="_blank">Twitter</a></p>
+        </section>
+        
         <footer>
             &copy; 2024 Oliver Wright | Built with GitHub Pages
         </footer>
