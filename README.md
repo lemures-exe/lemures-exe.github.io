@@ -14,6 +14,6 @@ Welcome to my GitHub Pages site documenting my journey in cyber security! Here y
 
 ## Contact
 Please feel free to contact me if you have any question's regarding any of my projects!
-- Email: olivertwright@protonmail.com
+- olivertwright@protonmail.com
 - [LinkedIn](https://linkedin.com/in/olivertwright)
 - [Twitter](https://x.com/__lemures__)
